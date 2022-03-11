@@ -102,6 +102,10 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.art {
+  width: 100%;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;

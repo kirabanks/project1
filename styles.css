@@ -9,16 +9,16 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: white;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #8e998c;
 }
 a:hover {
-  color: #6633ff;
+  color: #f58e6a;
 }
 
 /* Section Styles */
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #8e998c;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #f58e6a;
 }
 
 header {
@@ -70,40 +70,41 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 10px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: black;
+  color: #f58e6a;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: black;
+  color: #f58e6a;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #e7e7e7;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #582e42;
 }
 
 .card img {
   width: 100%;
+  border-radius: 10px;
 }
 
 ul.skills {
@@ -114,14 +115,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #582e42;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: black;
 }
 
 footer {
